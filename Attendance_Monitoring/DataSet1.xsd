@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dailyAttendance" msprop:Generator_TableClassName="dailyAttendanceDataTable" msprop:Generator_TableVarName="tabledailyAttendance" msprop:Generator_RowChangedName="dailyAttendanceRowChanged" msprop:Generator_TablePropName="dailyAttendance" msprop:Generator_RowDeletingName="dailyAttendanceRowDeleting" msprop:Generator_RowChangingName="dailyAttendanceRowChanging" msprop:Generator_RowEvHandlerName="dailyAttendanceRowChangeEventHandler" msprop:Generator_RowDeletedName="dailyAttendanceRowDeleted" msprop:Generator_RowClassName="dailyAttendanceRow" msprop:Generator_UserTableName="dailyAttendance" msprop:Generator_RowEvArgName="dailyAttendanceRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="attendance_id" msprop:Generator_ColumnVarNameInTable="columnattendance_id" msprop:Generator_ColumnPropNameInRow="attendance_id" msprop:Generator_ColumnPropNameInTable="attendance_idColumn" msprop:Generator_UserColumnName="attendance_id" type="xs:string" minOccurs="0" />
+              <xs:element name="firstname" msprop:Generator_ColumnVarNameInTable="columnfirstname" msprop:Generator_ColumnPropNameInRow="firstname" msprop:Generator_ColumnPropNameInTable="firstnameColumn" msprop:Generator_UserColumnName="firstname" type="xs:string" minOccurs="0" />
+              <xs:element name="lastname" msprop:Generator_ColumnVarNameInTable="columnlastname" msprop:Generator_ColumnPropNameInRow="lastname" msprop:Generator_ColumnPropNameInTable="lastnameColumn" msprop:Generator_UserColumnName="lastname" type="xs:string" minOccurs="0" />
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username" type="xs:string" minOccurs="0" />
+              <xs:element name="time" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnPropNameInTable="timeColumn" msprop:Generator_UserColumnName="time" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="allAttendance" msprop:Generator_TableClassName="allAttendanceDataTable" msprop:Generator_TableVarName="tableallAttendance" msprop:Generator_TablePropName="allAttendance" msprop:Generator_RowDeletingName="allAttendanceRowDeleting" msprop:Generator_RowChangingName="allAttendanceRowChanging" msprop:Generator_RowEvHandlerName="allAttendanceRowChangeEventHandler" msprop:Generator_RowDeletedName="allAttendanceRowDeleted" msprop:Generator_UserTableName="allAttendance" msprop:Generator_RowChangedName="allAttendanceRowChanged" msprop:Generator_RowEvArgName="allAttendanceRowChangeEvent" msprop:Generator_RowClassName="allAttendanceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="attendance_id" msprop:Generator_ColumnVarNameInTable="columnattendance_id" msprop:Generator_ColumnPropNameInRow="attendance_id" msprop:Generator_ColumnPropNameInTable="attendance_idColumn" msprop:Generator_UserColumnName="attendance_id" type="xs:string" minOccurs="0" />
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username" type="xs:string" minOccurs="0" />
+              <xs:element name="time" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnPropNameInTable="timeColumn" msprop:Generator_UserColumnName="time" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
